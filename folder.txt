@@ -1,0 +1,22 @@
+ussd-bank/
+│
+├── package.json
+├── server.js
+├── .env
+│
+└── src/
+    ├── app.js
+    ├── routes/
+    │   └── ussd.routes.js
+    ├── controllers/
+    │   └── ussd.controller.js
+    ├── services/
+    │   ├── session.service.js
+    │   ├── banking.service.js
+    │   └── transaction.service.js
+    ├── data/
+    │   ├── users.js
+    │   ├── sessions.js
+    │   └── transactions.js
+    └── utils/
+        └── reference.js
