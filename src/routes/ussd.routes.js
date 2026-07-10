@@ -4,8 +4,6 @@ const ussdController = require('../controllers/ussd.controller');
 router.post('/callback', (req, res) => {
     try {
         const { sessionId, phoneNumber, text } = req.body;
-        
-        // Log incoming request
         console.log(`📱 USSD Request - Session: ${sessionId}, Phone: ${phoneNumber}, Text: ${text}`);
 
         // Process USSD request
