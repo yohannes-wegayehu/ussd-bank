@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const ussdController = require('../controllers/ussd.controller');
-
-// USSD Callback route
 router.post('/callback', (req, res) => {
     try {
         const { sessionId, phoneNumber, text } = req.body;
