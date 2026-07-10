@@ -17,8 +17,6 @@ router.post('/callback', (req, res) => {
         return res.status(500).send('END An error occurred. Please try again.');
     }
 });
-
-// For testing with JSON responses
 router.post('/json', (req, res) => {
     try {
         const { sessionId, phoneNumber, text } = req.body;
