@@ -5,8 +5,6 @@ router.post('/callback', (req, res) => {
     try {
         const { sessionId, phoneNumber, text } = req.body;
         console.log(`📱 USSD Request - Session: ${sessionId}, Phone: ${phoneNumber}, Text: ${text}`);
-
-        // Process USSD request
         const response = ussdController.processRequest({
             sessionId,
             phoneNumber,
