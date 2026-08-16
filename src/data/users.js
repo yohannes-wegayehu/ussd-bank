@@ -15,7 +15,6 @@ module.exports = [
         balance: 8500.00,
         pin: '5678'
     },
-
     {
         id: 3,
         name: 'Samuel Tadesse',
