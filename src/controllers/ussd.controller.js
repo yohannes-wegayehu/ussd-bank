@@ -13,6 +13,8 @@ class USSDController {
             session = sessionService.createSession(sessionId, phoneNumber);
         }
 
+
+
         // Parse USSD input
         const input = text.split('*');
         const currentLevel = input.length - 1;
