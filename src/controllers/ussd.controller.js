@@ -126,6 +126,8 @@ class USSDController {
             return this.formatResponse(sessionId, menu);
         }
 
+
+
         // Store transfer data
         session.transferData.amount = amountNum;
         session.state = 'TRANSFER_CONFIRM';
