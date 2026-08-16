@@ -2,7 +2,6 @@ const transactions = require('../data/transactions');
 const bankingService = require('./banking.service');
 const { generateReference } = require('../utils/reference');
 
-
 class TransactionService {
     processTransfer(senderPhone, recipientAccount, amount, reference) {
         try {
