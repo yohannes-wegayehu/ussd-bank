@@ -23,5 +23,4 @@ module.exports = [
         date: '2026-01-14T14:20:00.000Z',
         senderBalance: 13500.00
     }
-
 ];
