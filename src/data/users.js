@@ -23,5 +23,4 @@ module.exports = [
         balance: 23000.00,
         pin: '9012'
     }
-
 ];
