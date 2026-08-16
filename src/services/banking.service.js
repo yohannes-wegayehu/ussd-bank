@@ -6,7 +6,6 @@ class BankingService {
         const cleanPhone = this.cleanPhoneNumber(phoneNumber);
         return users.find(user => user.phone === cleanPhone);
     }
-
     getUserByAccount(accountNumber) {
         return users.find(user => user.account === accountNumber);
     }
