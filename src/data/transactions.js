@@ -11,7 +11,6 @@ module.exports = [
         date: '2026-01-15T10:30:00.000Z',
         senderBalance: 14500.00
     },
-
     {
         id: 2,
         reference: 'CBE-TRF-2026-002',
