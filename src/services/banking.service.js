@@ -54,4 +54,5 @@ class BankingService {
         return user.balance;
     }
 }
+
 module.exports = new BankingService();
