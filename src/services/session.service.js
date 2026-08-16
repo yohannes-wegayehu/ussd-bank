@@ -45,6 +45,7 @@ class SessionService {
     cleanupSessions(timeoutMinutes = 5) {
         const now = new Date();
         const timeout = timeoutMinutes * 60 * 1000; // Convert to milliseconds
+
         
         for (const [sessionId, session] of Object.entries(sessions)) {
             const lastActivity = new Date(session.lastActivity);
