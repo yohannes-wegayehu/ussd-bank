@@ -35,6 +35,7 @@ class SessionService {
         return sessions[sessionId];
     }
 
+
     deleteSession(sessionId) {
         delete sessions[sessionId];
         return true;
