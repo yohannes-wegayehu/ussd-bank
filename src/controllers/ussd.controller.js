@@ -4,7 +4,6 @@ const transactionService = require('../services/transaction.service');
 
 
 const { generateReference } = require('../utils/reference');
-
 class USSDController {
     processRequest(data) {
         const { sessionId, phoneNumber, text } = data;
