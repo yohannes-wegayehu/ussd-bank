@@ -7,7 +7,6 @@ module.exports = [
         balance: 15000.00,
         pin: '1234'
     },
-
     {
         id: 2,
         name: 'Tigist Haile',
