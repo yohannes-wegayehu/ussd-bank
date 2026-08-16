@@ -22,8 +22,6 @@ router.post('/callback', (req, res) => {
 router.post('/json', (req, res) => {
     try {
         const { sessionId, phoneNumber, text } = req.body;
-
-
         
         const response = ussdController.processRequest({
             sessionId,
