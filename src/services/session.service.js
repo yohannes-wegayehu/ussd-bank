@@ -10,6 +10,7 @@ class SessionService {
             lastActivity: new Date().toISOString(),
             data: {}
         };
+
         
         sessions[sessionId] = session;
         return session;
