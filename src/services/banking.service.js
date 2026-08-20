@@ -13,7 +13,6 @@ class BankingService {
     getUserById(userId) {
         return users.find(user => user.id === userId);
     }
-
     cleanPhoneNumber(phone) {
         // Remove +251, 0, or spaces
         let cleaned = phone.replace(/\s/g, '');
