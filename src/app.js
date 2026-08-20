@@ -4,7 +4,6 @@ class USSDApp {
     constructor() {
         this.controller = ussdController;
     }
-
     handleRequest(req, res) {
         try {
             const { sessionId, phoneNumber, text } = req.body;
