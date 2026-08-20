@@ -15,7 +15,6 @@ class SessionService {
         sessions[sessionId] = session;
         return session;
     }
-
     getSession(sessionId) {
         const session = sessions[sessionId];
         if (session) {
