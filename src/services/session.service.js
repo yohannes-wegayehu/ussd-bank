@@ -11,7 +11,7 @@ class SessionService {
             data: {}
         };
 
-        
+     
         sessions[sessionId] = session;
         return session;
     }
