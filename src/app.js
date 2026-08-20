@@ -30,5 +30,4 @@ class USSDApp {
         }
     }
 }
-
 module.exports = new USSDApp();
