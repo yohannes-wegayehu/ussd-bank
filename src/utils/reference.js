@@ -12,6 +12,7 @@ function generateTransactionId() {
     const random = Math.floor(Math.random() * 1000);
     return `TX${timestamp}${random}`;
 }
+
 module.exports = {
     generateReference,
     generateTransactionId
