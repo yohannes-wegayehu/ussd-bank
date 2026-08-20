@@ -14,7 +14,6 @@ class USSDApp {
                     error: 'Missing required fields'
                 });
             }
-
             // Process USSD request
             const response = this.controller.processRequest({
                 sessionId,
